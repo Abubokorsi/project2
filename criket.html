@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>criket project</title>
+    <style>
+        body{
+            background-color: #F7F9F9 ;
+        }
+        .bat{
+            height: 400px;
+            width: 400px;
+            transition: transform 0.2s ease-in-out;
+        }
+        .bat:hover{
+            transform: rotate(-60deg);
+            transform-origin: 100% 0%;
+        }
+        .boll{
+            width: 45px;
+            height: 45px;
+            background-color: red;
+            border-radius: 50%;
+            position: relative;
+            left:574px;
+            transition: transform 1s ease-in-out 0.3s;
+        }
+        .fild:hover .boll {
+            transform: translate(1000px,-150px);
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="fild">
+        <div class="bat">
+            <img src="bat.png" alt="">
+        </div>
+        <div class="boll"></div>
+    </div>
+    
+</body>
+</html>
